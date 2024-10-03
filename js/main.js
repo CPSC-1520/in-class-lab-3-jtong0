@@ -16,7 +16,7 @@ linkContainer.addEventListener('mouseover',function(event)
 {
     if (event.target.tagName === 'A')
     {   
-       // let listItems = linkContainer.querySelectorAll('li');
+        let listItems = linkContainer.querySelectorAll('li');
         console.log(listItems);
         console.log(event.target.innerText);
         let parentDiv = event.target.closest('.font-weight-bold.list-group-item.list-group-item-action');
