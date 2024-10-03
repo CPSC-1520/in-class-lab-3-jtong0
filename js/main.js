@@ -34,7 +34,7 @@ linkContainer.addEventListener('mouseout',function(event)
 
 });
 
-linkContainer.addEventListener('mouseout',function(event)
+linkContainer.addEventListener('click',function(event)
 {
     if (event.target.tagName === 'A')
     {   
